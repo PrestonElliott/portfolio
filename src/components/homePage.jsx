@@ -1,12 +1,13 @@
-import React from "react"
-import {} from "react-bootstrap"
-import NavBar from "./navBar"
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function HomePage() {
 
     return (
-        <div>
-            <NavBar/>
+        <div className="jumbotron">
+            <Link to="about" className="btn btn-primary btn-lg">
+                About
+            </Link>
         </div>
     )
 
